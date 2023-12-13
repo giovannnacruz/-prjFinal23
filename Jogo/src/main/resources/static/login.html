@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Jogos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carattere&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+    <link rel="shortcut icon" href="./imagens/Logo-Tom-And-Jerry-PNG.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div id="cadjogo">
+        <h1>Cadastro de Jogos</h1>
+    </div>
+
+    <div id="jeremias">
+        <img src="./imagens/jerry1.gif" style="width: 100px; height: 150px;">
+        <img src="./imagens/tomas.gif">
+    </div>
+
+    <div class="login">
+
+        <div id="cadastro">
+           <center><h2><u>Cadastro de Jogo</u></h2></center>
+            <form id="cadastroForm" enctype="multipart/form-data">
+                <label for="nomejogo">Nome do Jogo :</label>
+                <input type="text" id="nomejogo" name="nomejogo" required><br>
+
+                <label for="generojogo">Gênero do Jogo :</label>
+                <input type="text" id="generojogo" name="generojogo" required><br>
+
+                <label for="squad">Squad :</label>
+                <input type="text" id="squad" name="squad" required><br>
+
+                <label for="integrantes">Integrantes :</label>
+                <input type="text" id="integrantes" name="integrantes" required><br>
+
+
+                <label for="url">URL:</label>
+                <input type="text" id="url" name="url" required><br>
+
+                <label for="thumbnail">Thumbnail:</label>
+                <input type="text" id="thumbnail" name="thumbnail" required><br>
+
+
+                <button type="button" onclick="cadastrarJogo()" style="margin-top: 20px;">Cadastrar</button>
+                <button type="button" onclick="excluirJogo()" style="margin-top: 20px;">Excluir</button>
+            </form>
+
+            <div id="divimagem">
+             <button type="button" onclick="ListarJogos()">🔎Pesquisar</button>
+            </div>
+            
+        </div>
+            <header>
+
+            </header>
+
+            <aside>
+                <!-- Barra lateral, se necessário -->
+            </aside>
+            <main>
+                <table class="blueTable" id="jogos-tabela">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome do Jogo</th>
+                            <th>Squad</th>
+                            <th>Gênero do Jogo </th>
+                            <th>Integrantes</th>
+                            <th>URL</th>
+                            <th>Imagem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+
+</html>

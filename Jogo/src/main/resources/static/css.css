@@ -1,0 +1,292 @@
+body {
+    background-image: url(fundo.png), linear-gradient(45deg, rgba(245, 122, 0, 0.997), rgb(246, 161, 33));
+    background-blend-mode: multiply;
+}
+
+.header {
+    width: 100%;
+    top: 0px;
+    height: 30px;
+}
+
+.div1 {
+    border-style: solid;
+    text-align: center;
+    border-color: darkcyan;
+    max-width: 1400px;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    margin-top: 70px;
+}
+
+.divsquad {
+    border-style: solid;
+    text-align: center;
+    border-color: darkcyan;
+    max-width: 1400px;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "logo logo" 
+    "moita cachorromorto" 
+    "pedro giovana";
+    justify-items: center;
+}
+
+.div2 {
+    border-style: solid;
+    text-align: center;
+    border-color: rgb(255, 147, 5);
+    max-width: 1400px;
+    margin: auto;
+    max-height: 1500px;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+
+}
+
+.comandos {
+    border-style: solid;
+    text-align: center;
+    border-color: rgb(55, 255, 5);
+    max-width: 1000px;
+    margin: auto;
+    max-height: 1500px;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin-top: 80px;
+
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.his {
+    border-style: solid;
+    text-align: center;
+    border-color: rgb(159, 5, 255);
+    max-width: 1400px;
+    margin: auto;
+    max-height: 1500px;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin-top: 80px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.tom {
+    border-style: solid;
+    text-align: center;
+    border-color: rgb(5, 193, 255);
+    max-width: 800px;
+    margin: auto;
+    max-height: 1500px;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin-top: 80px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.jerry {
+    border-style: solid;
+    text-align: center;
+    border-color: rgb(255, 201, 5);
+    max-width: 800px;
+    margin: auto;
+    max-height: 1500px;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.caixa {
+    background-color: rgba(47, 220, 20, 0.319);
+    width: 1320px;
+    height: 300px;
+
+}
+
+.caixa2 {
+    background-color: rgba(20, 220, 183, 0.319);
+    width: 1320px;
+    height: 300px;
+
+}
+
+.vazio {
+    border-style: solid;
+    text-align: center;
+    border-color: rgb(255, 255, 255);
+    float: left;
+    margin: 20px;
+    font-family: sans-serif;
+    background-color: rgba(255, 255, 255, 0.449);
+    align-items: flex-start;
+    height: 230px;
+    width: 400px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.titulo {
+    font-size: 30px;
+    font-style: oblique;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+    border-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imagem {
+    border-radius: 50%;
+}
+
+.imagemperfil {
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 5px rgb(0, 255, 217);
+}
+
+.linkedin {
+    float: left;
+}
+
+.caixaperfil {
+    border-style: solid;
+    text-align: center;
+    border-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    background-color: rgba(255, 255, 255, 0.449);
+    height: 50px;
+    width: 600px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+.rodape {
+    float: right;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h {
+    background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
+
+#image {
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.nomesquad {
+    font-family: 'Carattere', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-size: 40px;
+    color: blue;
+}
+
+.almoceiocachorrododavi {
+    font-size: 20px;
+    border-style: solid;
+    border-color: darkcyan;
+    height: 250px;
+    width: 400px;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    display: inline-block;
+    grid-area: cachorromorto;
+    margin: 20px;
+}
+
+.gigigiooovanana {
+    border-style: solid;
+    font-size: 20px;
+    border-color: darkcyan;
+    height: 250px;
+    width: 400px;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    min-width: 250px;
+    display: inline-block;
+    grid-area: giovana;
+    margin: 20px;
+}
+
+
+.fazumaestrelinhamoises {
+    border-style: solid;
+    font-size: 20px;
+    border-color: darkcyan;
+    height: 250px;
+    width: 400px;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    display: inline-block;
+    grid-area: moita;
+    margin: 20px;
+}
+
+.eu {
+    font-size: 20px;
+    border-style: solid;
+    border-color: darkcyan;
+    height: 250px;
+    width: 400px;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    min-width: 250px;
+    display: inline-block;
+    grid-area: pedro;
+    margin: 20px;
+}
+
+#logo {
+    grid-area: logo;
+}

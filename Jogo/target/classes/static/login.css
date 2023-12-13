@@ -1,0 +1,96 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffebcd; /* Beige color */
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#cadjogo {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff6600; /* Orange color */
+    color: white;
+}
+
+#jeremias {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+#jeremias img {
+    border-radius: 10px;
+}
+
+.login {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+#cadastro {
+    width: 40%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #333;
+}
+
+input {
+    padding: 8px;
+}
+
+/* ... seu código CSS anterior ... */
+
+button {
+    padding: 10px;
+    background-color: #000000; /* Orange color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px; /* Adiciona espaço abaixo dos botões */
+}
+
+button:hover {
+    background-color: #cc5200; /* Darker orange color */
+}
+
+#divimagem {
+    width: 60%;
+    margin-left: 7.3cm;
+    margin-top: 20px; /* Adiciona espaço acima do bloco divimagem */
+}
+
+/* ... resto do seu código CSS ... */
+
+
+.blueTable {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.blueTable th, .blueTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.blueTable th {
+    background-color: #ff6600; /* Orange color */
+    color: white;
+}
+
+.blueTable tbody tr:hover {
+    background-color: #ffe6cc; /* Lighter beige color */
+}
